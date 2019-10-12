@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Supremory | User Account Creation</title>
+  </head>
+
+  <body>
+    <div class="login">
+      <div class="container">
+        <h1>Supremory</h1>
+        <form action="" method="post">
+          <p data-js="user-error-message"></p>
+          <label for="name">Username</label>
+          <input
+            data-js="username-register"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your User Name"
+          />
+          <label for="name">Password</label>
+          <input
+            data-js="password-register"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Your Password"
+          />
+          <input data-js="key" type="text" name="key" id="key" />
+          <input
+            data-js="btn-submit-register"
+            id="btn-submit"
+            type="submit"
+            value="Create new user"
+          />
+        </form>
+        <p data-js="sucess" class="sucess"></p>
+        <div class="acc-actions">
+          <a href="../index.html">Login</a>
+          <a href="">Reset Your Password</a>
+        </div>
+      </div>
+    </div>
+
+    <h1>Conseguiu</h1>
+
+    <script src="../js/dom.js"></script>
+    <script src="../js/registerUser.js"></script>
+  </body>
+</html>

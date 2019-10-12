@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/howItWorks.css" />
+    <title>Supremory | A Website To Train Your Brain</title>
+  </head>
+
+  <body class="body-before">
+    <div class="login turned-on">
+      <div class="container">
+        <h1>Supremory</h1>
+        <form action="" method="post">
+          <p data-js="errorMessage"></p>
+          <label data-js="label-username" for="name">Username</label>
+          <input
+            data-js="username"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your User Name"
+          />
+          <label for="name">Password</label>
+          <input
+            data-js="password"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Your Password"
+          />
+          <input
+            data-js="btn-submit"
+            id="btn-submit"
+            type="submit"
+            value="Logar"
+          />
+        </form>
+        <div class="acc-actions">
+          <a href="./pages/new-account.html">Create An Account</a>
+          <a href="">Reset Your Password</a>
+        </div>
+      </div>
+    </div>
+
+    <header id="main-header">
+      <div class="container">
+        <h1><span class="t-styling">Supr</span>emory</h1>
+        <ul>
+          <li><a href="#">Number</a></li>
+          <li>
+            <a data-js="logout" id="logout">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="main-section">
+      <div class="phrases">
+        <a href="#" data-js="before">Before</a>
+        <div class="inpiration-phrases">
+          <p data-js="phrases">
+            O sucesso nasce do querer, da determinação e persistência em se
+            chegar a um objetivo. Mesmo não atingindo o alvo, quem busca e vence
+            obstáculos, no mínimo fará coisas admiráveis.
+          </p>
+        </div>
+        <a href="#" data-js="after">Next</a>
+      </div>
+    </section>
+
+    <section id="second-section">
+      <div class="container">
+        <div class="first-section">
+          <div class="first-part">
+            <a href="#" data-js="start" class="special-a">Start</a>
+            <a href="#" data-js="stop" class="cancel-a">Cancel</a>
+          </div>
+          <!-- <a href="#">Ready?</a> -->
+        </div>
+        <div class="middle-section">
+          <p class="what-to-do">
+            O objetivo é memorizar os números. Terá x pra memoriza-los e é
+            recomendado que espere x minutos para responder, pra de fato treinar
+            o seu cérebro.
+          </p>
+          <h1 data-js="number" class="toogle-off-input"></h1>
+          <input
+            type="text"
+            data-js="number-compare"
+            class="toogle-off-input"
+          />
+          <p class="result" data-js="result"></p>
+          <a href="#" data-js="check" class="toogle-off-input check">Check</a>
+        </div>
+
+        <div class="thirt-section">
+          <input type="number" data-js="time-to-memorize" />
+          <input type="number" data-js="time-to-aswer" />
+          <input data-js="numbers-lenght" type="number" />
+          <div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works-tips">
+      <div class="how-it-works">
+        <h1><span class="t-styling">Como f</span>unciona</h1>
+        <p>
+          Primeiro terá que preencher o primeiro quadrado que é o do tempo que o
+          número ficará visivel para você tentar memorizar. O segundo quadrado é
+          o que fará após(A sequência é necessária, se não, não conseguirá
+          digitar nada.) nele você colocará o tempo de espera para responder(Pra
+          se desafiar e ver o quanto consegui passar sem esquece-lo). Já o
+          terceiro é onde colocará a quantidade de número que deseja tentar
+          memorizar. Após isso tudo, clique em Start. Depois que o tempo de
+          espera acabar e quando isso acontecer, aparecerá uma caixa para
+          colocar a resposta e após preenche-la com o número, aparece um botão
+          logo abaixo para verificar se errou o acertou. Os números devem ser
+          colocados dessa maneira: 1 minutos pra cima é só por o número inteiro
+          mesmo, e se tiver segundos terá que por um . pra seprar os segundos.
+          Os segundos terão que ter um ponto depois do 0. Ex: 0.20. Espero que
+          se divirta!
+        </p>
+      </div>
+
+      <div class="tips">
+        <h1><span class="t-styling">Di</span>cas</h1>
+        <p>
+          Atributo a cada número uma imagem. Exemplo: Para o número 1 eu penso
+          em um peixe. Por quê? Eu utilizo a técnica de 'Número rima' que
+          aprendi no livro 'Use sua mente' do Tony Buzzan. Vamos supor que você
+          queria memorizar '1993', você poderia criar uma história mental.
+          Exemplo: Um peixe(1 = Atum) Em um lugar que está chovendo muito(9 =
+          chove), aqui temos 2 noves, fazer chover duas vezes não é muito
+          memorável né. Você pode usar número rima de novo. Ao em vez de ver
+          água caindo do céu, poderia ver bois caindo(2 = bois) isso iria te
+          lembrar que são 2 noves e não 1 apenas. E pra finalizar, um tigre
+          tentando comer o peixe(3 = tigres). Esse é uma forma muito boa pra
+          memorização de números e é minha favorita. Hoje até tenho uma versão
+          modificada. Você também pode criar variações e até mesmo criar seus
+          próprios números rimas(se for bom nisso, o que eu não sou). Aqui vão
+          todos os 10 que uso: 1 atum, 2 boys, 3 tigres, 4 sua tia tem pelo no
+          suvaco, 5 brinco, 6 reis, 7 canivete, 8 biscoito, 9 chove, 10 aneis.
+        </p>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <p>
+          Todos os direitos reservados. 2019
+          <span class="t-styling">Supr</span>emory
+        </p>
+      </div>
+    </footer>
+
+    <script src="./js/dom.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/numbers-functionality/numbers.js"></script>
+    <script src="./js/numbers-functionality/numbers2.js"></script>
+    <script src="./js/motivationalPhrases/phrases.js"></script>
+    <script src="./js/motivationalPhrases/nextAndBeforeBtns.js"></script>
+  </body>
+</html>

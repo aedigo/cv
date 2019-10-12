@@ -1,0 +1,342 @@
+/* Essential */
+
+:root {
+  --max-width: 1100px;
+}
+
+.t-styling {
+  color: #ff6361;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'roboto', sans-serif;
+  color: #333;
+}
+
+.body-before {
+  font-family: 'roboto', sans-serif;
+  overflow: hidden;
+}
+
+.body-after {
+  font-family: 'roboto', sans-serif;
+  overflow: visible;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+}
+
+
+/* Tags Selectors */
+
+.login .container h1 {
+  margin-bottom: 50px;
+  font-size: 3rem;
+}
+
+.turned-off {
+  display: none;
+  overflow: hidden;
+}
+
+.turned-on {
+  overflow: visible;
+}
+
+.login .container form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login .container form input {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding: 10px 30px;
+  border: none;
+}
+
+.login .container .acc-actions a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: .8rem;
+  text-decoration: none;
+}
+
+/* Hovers */
+
+.login .container h1:hover {
+  cursor: default;
+}
+
+.login .container form #btn-submit:hover {
+  border: none;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login .container .acc-actions a:hover {
+  text-decoration: underline;
+}
+
+/* Class Selectors */
+
+.login {
+  height: 100vh;
+  background: #3E64FF;
+  color: #fff;
+}
+
+.acc-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.login .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.error-message {
+  margin-bottom: 8px;
+  color: yellow;
+}
+/* Id Selectors */
+
+.login .container form #btn-submit {
+  border-radius: 5px;
+}
+
+#main-header .container ul #logout {
+  background: #40bfc1;
+  color: #333;
+}
+
+#main-header .container ul #logout:hover {
+  background: #ff0000;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Main header */
+
+#main-header .container {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  margin-bottom: 3rem;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+#main-header .container {
+  color: #fff;
+  background: #443737;
+  padding: 2rem;
+}
+
+#main-header .container h1 {
+  margin-top: .8rem;
+}
+
+#main-header .container ul {
+  display: flex;
+  margin-right: 1rem;
+}
+
+#main-header .container ul li {
+  margin: 1rem;
+  list-style: none;
+}
+
+#main-header .container ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 3rem 2rem;
+  border-top: none;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+#main-header .container ul li a:hover {
+  background: #fdeced;
+  color: #333;
+}
+
+#main-section .phrases {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  justify-items: center;
+  align-items: center;
+  height: 90px;
+  background: #443737;
+  color: #ff6361;
+  margin: 0 18rem;
+  border-radius: 10px;
+}
+
+#main-section .phrases a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#main-section .phrases a:hover {
+  text-decoration: underline;
+}
+
+#main-section .phrases .inpiration-phrases {
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  padding: 1rem;
+}
+
+#second-section .container {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  margin: 50px;
+  background: #443737;
+  border-radius: 10px;
+}
+
+#second-section .container .first-section {
+  display: flex;
+  height: 98vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#second-section .container .first-section .first-part {
+  display: flex;
+  flex-direction: column;
+}
+
+#second-section .container .first-section .first-part a {
+  margin: 16px;
+}
+
+#second-section .container .first-section a {
+  display: flex;
+  color: #333;
+  margin: 16px;
+  background: #fff;
+  border: none;
+  width: 140px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+#second-section .container .first-section .special-a {
+  color: #fff;
+  background: #ff6361;
+}
+
+#second-section .container .first-section .cancel-a:hover {
+  background: #f0134d;
+  color: #fff;
+}
+
+#second-section .container .first-section a:hover {
+  color: #ff4d00;
+  background: #fff;
+}
+
+#second-section .container .first-section .special-a:hover {
+  color: #ff0000;
+  background: #fff;
+}
+
+#second-section .container .middle-section {
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 1fr 3fr;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-items: center;
+}
+
+#second-section .container .middle-section .what-to-dop {
+  margin-top: 1rem;
+  width: 500px;
+  opacity: .6;
+  color: #fff;
+}
+
+#second-section .container .middle-section .result {
+  font-size: 2rem;
+  color: #fff;
+}
+
+#second-section .container .middle-section h1 {
+  color: #ff4d00;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#second-section .container .middle-section a {
+  background: #ff4d00;
+  color: #fff;
+  padding: 3rem;
+  border-radius: 12px;
+}
+
+#second-section .container .middle-section a:hover {
+  background: #fff;
+  color: #ff4d00;
+}
+
+#second-section .container .middle-section input {
+  height: 50px;
+  font-size: 2rem;
+}
+
+#second-section .container .middle-section input:focus {
+  color: #ff4d00;
+  background: #444;
+}
+
+
+#second-section .container .thirt-section {
+  display: grid;
+  grid-template-rows: repeat(4, 3fr);
+  grid-gap: 8px;
+}
+
+#second-section .container .thirt-section input {
+  font-size: 60px;
+  width: 100%;
+  border: solid 5px;
+}
+
+#second-section .container .thirt-section input[data-js="time-to-memorize"] {
+  border-top-right-radius: 10px;
+
+}
+.sucess {
+  color: #fff;
+  margin-bottom: 16px;
+}
+.toogle-off-input {
+  visibility: hidden;
+}
+
+.toogle-on-input {
+  visibility: visible;
+}
+
+.check {
+
+}

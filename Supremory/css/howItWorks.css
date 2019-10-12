@@ -1,0 +1,46 @@
+p {
+  line-height: 1.5;
+}
+
+#how-it-works-tips {
+  display: flex;
+  text-align: center;
+  margin: 0 3rem;
+  margin-bottom: 2rem;
+}
+
+#how-it-works-tips .how-it-works {
+  width: 50%;
+  margin-right: 16px;
+}
+
+#how-it-works-tips .how-it-works p {
+  margin: 1rem auto 0 auto;
+  width: 80%;
+  text-align: left;
+}
+
+#how-it-works-tips .tips {
+  width: 50%;
+  margin-left: 16px
+}
+
+#how-it-works-tips .tips p {
+  margin: 1rem auto 0 auto;
+  width: 80%;
+  text-align: left;
+}
+
+#footer .container {
+  height: 50px;
+  color: #fff;
+  background: #443737;
+  display: flex;
+  align-items: center;
+
+}
+
+#footer .container p {
+  margin-left: 32px;
+
+}
